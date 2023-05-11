@@ -1,0 +1,63 @@
+@import './mixins';
+@import './variables';
+
+
+//container styling
+.container {
+   @include flexJustifyContent(space-evenly);
+    background: linear-gradient(to bottom, $bodybackground, $white);
+}
+
+
+//todo box styling
+.todo_box {
+    @include marginTopAndBottom(5%, 5%);
+    padding: 2%;
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: $boxShadow;
+    background: linear-gradient(to bottom, $boxbackground, $white);
+}
+
+
+//todo list items and completed list items styling
+.listItem, .completed_listItem {
+    margin: 4%;
+}
+
+//common styling for all list items
+li {
+    @include flexJustifyContent(space-between);
+}
+
+
+//styling for to do title
+.todo_title {
+    text-align: center;
+    color: $whitesmoke;
+}
+
+
+//styling for to do todo content
+.todo_content_box {
+    
+    .btn_add {
+        @include blockDisplayAndMarginAuto();
+        width: 10%;
+    }
+
+    button {
+        border-radius: 20px;
+        background: linear-gradient(to bottom, $buttonbackground, $white);
+    }
+
+    .completed_list {
+        ul {
+            li {
+                button {
+                    text-decoration: none;
+                }   
+            }
+        }
+    }
+}

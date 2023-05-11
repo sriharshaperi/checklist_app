@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Complete the Assignment",
+        "description": "Complete the web design assignment 6",
+        "due_date": "2022-03-02",
+        "time": "21:51"
+    },
+    {
+        "title": "Get the code review done",
+        "description": "Code review for Assignment 6",
+        "due_date": "2022-03-06",
+        "time": "05:55"
+    },
+    {
+        "title": "Book an appointment with TA",
+        "description": "Appointment furing TA hours for clarifications",
+        "due_date": "2022-03-06",
+        "time": "04:30"
+    },
+    {
+        "title": "Prepare for mid term",
+        "description": "Prepare for mid exam on 9th March",
+        "due_date": "2022-03-08",
+        "time": "06:00"
+    }
+]

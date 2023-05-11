@@ -1,0 +1,20 @@
+{
+  "name": "assignment-6-sriharshaneu",
+  "version": "1.0.0",
+  "description": "assignment-6-sriharshaneu created by GitHub Classroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "npx sass scss/main.scss dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2022/assignment-6-sriharshaneu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2022/assignment-6-sriharshaneu/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2022/assignment-6-sriharshaneu#readme"
+}

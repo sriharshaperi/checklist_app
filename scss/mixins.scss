@@ -1,0 +1,18 @@
+//mixin for margin top and margin bottom style
+@mixin  marginTopAndBottom($marginTop, $marginBottom) {
+    margin-top: $marginTop;
+    margin-bottom: $marginBottom;
+}
+
+//mixin for flex justify content
+@mixin flexJustifyContent($justifyContent) {
+    display: flex;
+    justify-content:  $justifyContent;
+}
+
+//mixin for block display and margin auto
+@mixin blockDisplayAndMarginAuto() {
+    display: block;
+    margin: auto;
+}
+

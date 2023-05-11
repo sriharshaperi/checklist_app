@@ -1,0 +1,54 @@
+@import "./variables";
+@import "./mixins";
+@import './container.scss';
+
+
+//form content styling
+.form_content {
+    @extend .todo_box;
+    display: none;
+}
+
+
+//form element styling
+form  {
+
+    display: flex;
+    flex-direction: column;
+
+
+    //common stylings for all divs inside form element
+    div {
+        margin-top: 3%;
+    }
+
+
+    //positioning form group of the two buttons of the form
+    .form_group6 {
+
+        @include flexJustifyContent(space-evenly);
+        align-items: center;
+    }
+
+
+    //button stylings
+    button {
+        border-radius: 20px;
+        background: linear-gradient(to bottom, $buttonbackground, $white);
+    }
+
+
+    //input stylings
+    input {
+        border-radius: 20px;
+    }
+
+    //stylings for 5 form groups
+    .form_group1, .form_group2, .form_group3, .form_group4, .form_group5 {
+        display: flex;
+        flex-direction: column;
+        label {
+            font-size: small;
+        }
+    }
+}
